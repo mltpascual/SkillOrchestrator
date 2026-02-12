@@ -1,21 +1,23 @@
 # AI Agent Skill Pack: Full Project Initialization
 
 <p align="center">
-  <img src="https://img.shields.io/badge/AI_Agents-Ready-blueviolet?style=for-the-badge" alt="AI Agents Ready"/>
   <img src="https://img.shields.io/badge/Skills-15-informational?style=for-the-badge" alt="15 Skills"/>
   <img src="https://img.shields.io/badge/Orchestrators-3-success?style=for-the-badge" alt="3 Orchestrators"/>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Manus-000?style=flat-square&logo=manus&logoColor=fff" alt="Manus"/>
-  <img src="https://img.shields.io/badge/Cursor-000?style=flat-square&logo=cursor&logoColor=fff" alt="Cursor"/>
-  <img src="https://img.shields.io/badge/Windsurf-000?style=flat-square&logo=windsurf&logoColor=fff" alt="Windsurf"/>
-  <img src="https://img.shields.io/badge/Claude-000?style=flat-square&logo=claude&logoColor=fff" alt="Claude"/>
-  <img src="https://img.shields.io/badge/OpenAI-000?style=flat-square&logo=openai&logoColor=fff" alt="OpenAI"/>
-  <img src="https://img.shields.io/badge/GitHub_Copilot-000?style=flat-square&logo=githubcopilot&logoColor=fff" alt="GitHub Copilot"/>
-  <img src="https://img.shields.io/badge/Anthropic-000?style=flat-square&logo=anthropic&logoColor=fff" alt="Anthropic"/>
-  <img src="https://img.shields.io/badge/Replit-000?style=flat-square&logo=replit&logoColor=fff" alt="Replit"/>
-  <img src="https://img.shields.io/badge/v0-000?style=flat-square&logo=v0&logoColor=fff" alt="v0"/>
+  <strong>COMPATIBLE AGENTS</strong>
+</p>
+
+<p align="center">
+  <a href="#cursor"><img src="assets/icons/cursor.svg" width="48" height="48" alt="Cursor"/></a>&nbsp;&nbsp;
+  <a href="#windsurf"><img src="assets/icons/windsurf.svg" width="48" height="48" alt="Windsurf"/></a>&nbsp;&nbsp;
+  <a href="#claude--openai--other-agents"><img src="assets/icons/claude-code.svg" width="48" height="48" alt="Claude Code"/></a>&nbsp;&nbsp;
+  <a href="#claude--openai--other-agents"><img src="assets/icons/codex.svg" width="48" height="48" alt="Codex"/></a>&nbsp;&nbsp;
+  <a href="#claude--openai--other-agents"><img src="assets/icons/copilot.svg" width="48" height="48" alt="GitHub Copilot"/></a>&nbsp;&nbsp;
+  <a href="#claude--openai--other-agents"><img src="assets/icons/gemini.svg" width="48" height="48" alt="Gemini"/></a>&nbsp;&nbsp;
+  <a href="#claude--openai--other-agents"><img src="assets/icons/vscode.svg" width="48" height="48" alt="VS Code"/></a>&nbsp;&nbsp;
+  <a href="#claude--openai--other-agents"><img src="assets/icons/antigravity.svg" width="48" height="48" alt="Antigravity"/></a>
 </p>
 
 <p align="center">
@@ -160,4 +162,4 @@ Day 1: Cloned or forked the repo
 
 ## Credits
 
-Skills in this pack are sourced from the [**Open Agent Skills Ecosystem**](https://skills.sh/) and community repositories. Browse more skills at [skills.sh](https://skills.sh/).
+Skills in this pack are sourced from the [**Open Agent Skills Ecosystem**](https://skills.sh/) and community repositories. Agent icons courtesy of [skills.sh](https://skills.sh/). Browse more skills at [skills.sh](https://skills.sh/).
