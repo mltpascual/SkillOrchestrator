@@ -64,6 +64,9 @@ git clone https://github.com/mltpascual/SkillOrchestrator.git .codex/skills
 # Cursor specific
 git clone https://github.com/mltpascual/SkillOrchestrator.git .cursor/skills
 
+# Antigravity specific
+git clone https://github.com/mltpascual/SkillOrchestrator.git .gemini/antigravity/skills
+
 # OpenCode specific (Universal path)
 git clone https://github.com/mltpascual/SkillOrchestrator.git .agent/skills
 ```
