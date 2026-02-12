@@ -6,7 +6,22 @@
   <img src="https://img.shields.io/badge/Orchestrators-3-success?style=for-the-badge" alt="3 Orchestrators"/>
 </p>
 
-A curated set of **15 AI agent skills** designed to provide a comprehensive, one-shot project initialization and documentation workflow. Compatible with **any AI agent or coding assistant** — just clone this repo into your project or global skills directory, and you're ready to go.
+<p align="center">
+  <img src="https://img.shields.io/badge/Manus-000?style=flat-square&logo=manus&logoColor=fff" alt="Manus"/>
+  <img src="https://img.shields.io/badge/Cursor-000?style=flat-square&logo=cursor&logoColor=fff" alt="Cursor"/>
+  <img src="https://img.shields.io/badge/Windsurf-000?style=flat-square&logo=windsurf&logoColor=fff" alt="Windsurf"/>
+  <img src="https://img.shields.io/badge/Claude-000?style=flat-square&logo=claude&logoColor=fff" alt="Claude"/>
+  <img src="https://img.shields.io/badge/OpenAI-000?style=flat-square&logo=openai&logoColor=fff" alt="OpenAI"/>
+  <img src="https://img.shields.io/badge/GitHub_Copilot-000?style=flat-square&logo=githubcopilot&logoColor=fff" alt="GitHub Copilot"/>
+  <img src="https://img.shields.io/badge/Anthropic-000?style=flat-square&logo=anthropic&logoColor=fff" alt="Anthropic"/>
+  <img src="https://img.shields.io/badge/Replit-000?style=flat-square&logo=replit&logoColor=fff" alt="Replit"/>
+  <img src="https://img.shields.io/badge/v0-000?style=flat-square&logo=v0&logoColor=fff" alt="v0"/>
+</p>
+
+<p align="center">
+  A curated set of <strong>15 AI agent skills</strong> for one-shot project initialization and documentation.<br/>
+  Compatible with <strong>any AI agent or coding assistant</strong> — just clone and go.
+</p>
 
 ---
 
@@ -24,36 +39,36 @@ That's it. One prompt, and the orchestrator handles the rest.
 
 ---
 
-## Installation & Usage by Platform
+## Installation
 
-### <img src="https://img.shields.io/badge/Manus-000?logo=manus&logoColor=fff" alt="Manus"/> Manus
+### Manus
 
-1.  **Add Skills:** After this task, click the **"Add to my skills"** button for each of the 15 skills.
-2.  **Usage:** In any project, just use the trigger prompts.
+1. Click the **"Add to my skills"** button for each of the 15 skills.
+2. In any project, just use the trigger prompts.
 
-### <img src="https://img.shields.io/badge/Cursor-000?logo=cursor&logoColor=fff" alt="Cursor"/> Cursor
+### Cursor
 
-1.  **Install:** Clone this repo into your project root:
+1. Clone this repo into your project:
     ```bash
     git clone https://github.com/mltpascual/SkillOrchestrator.git ./.cursor/skills
     ```
-2.  **Usage:** Use `@` to reference the skills in chat (e.g., `@master-orchestrator Initialize the project`).
+2. Use `@` to reference the skills in chat (e.g., `@master-orchestrator Initialize the project`).
 
-### <img src="https://img.shields.io/badge/Windsurf-000?logo=windsurf&logoColor=fff" alt="Windsurf"/> Windsurf
+### Windsurf
 
-1.  **Install:** Clone this repo into your project root:
+1. Clone this repo into your project root:
     ```bash
     git clone https://github.com/mltpascual/SkillOrchestrator.git ./skills
     ```
-2.  **Usage:** Reference the skills in your Windsurf prompts.
+2. Reference the skills in your Windsurf prompts.
 
-### <img src="https://img.shields.io/badge/Claude-000?logo=claude&logoColor=fff" alt="Claude"/> Claude / <img src="https://img.shields.io/badge/OpenAI-000?logo=openai&logoColor=fff" alt="OpenAI"/> OpenAI / Other Agents
+### Claude / OpenAI / Other Agents
 
-1.  **Install:** Clone this repo into your project root:
+1. Clone this repo into your project root:
     ```bash
     git clone https://github.com/mltpascual/SkillOrchestrator.git ./skills
     ```
-2.  **Usage:** Provide the `skills/` directory as context to your agent and ask it to follow the instructions in the `SKILL.md` files.
+2. Provide the `skills/` directory as context to your agent and ask it to follow the instructions in the `SKILL.md` files.
 
 ---
 
@@ -86,6 +101,26 @@ Day 1: Cloned or forked the repo
   │
   └─→ Done. Full context captured.
 ```
+
+### When to Use Each Orchestrator
+
+| Project Phase | Which Orchestrator | Why |
+|---|---|---|
+| **Day 1 — New project** | `dev orchestrator` | Set coding standards before writing any code |
+| **Day 1 — Existing project** | `master orchestrator` | Need both dev guidelines AND full documentation |
+| **During development** | None | Focus on building — docs will be outdated tomorrow |
+| **UI is stable** | `docs orchestrator` | Capture the design system while it's fresh |
+| **MVP / Major milestone** | `docs orchestrator` | Capture the current state before the next phase |
+| **Before handoff** | `master orchestrator` | Full refresh — dev guidelines + all docs up to date |
+| **Project complete** | `master orchestrator` | Final documentation pass for posterity |
+
+### The Golden Rule
+
+> **Dev orchestrator** = Run ONCE at the start. It sets the rules.
+>
+> **Docs orchestrator** = Run at MILESTONES. It captures the state.
+>
+> **Master orchestrator** = Run for HANDOFFS. It does everything.
 
 ---
 
