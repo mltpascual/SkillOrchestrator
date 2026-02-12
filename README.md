@@ -9,16 +9,18 @@
   <strong>COMPATIBLE AGENTS</strong>
 </p>
 
-<p align="center">
-  <a href="#cursor"><img src="assets/icons/cursor.svg" width="48" height="48" alt="Cursor"/></a>&nbsp;&nbsp;
-  <a href="#windsurf"><img src="assets/icons/windsurf.svg" width="48" height="48" alt="Windsurf"/></a>&nbsp;&nbsp;
-  <a href="#claude--openai--other-agents"><img src="assets/icons/claude-code.svg" width="48" height="48" alt="Claude Code"/></a>&nbsp;&nbsp;
-  <a href="#claude--openai--other-agents"><img src="assets/icons/codex.svg" width="48" height="48" alt="Codex"/></a>&nbsp;&nbsp;
-  <a href="#claude--openai--other-agents"><img src="assets/icons/copilot.svg" width="48" height="48" alt="GitHub Copilot"/></a>&nbsp;&nbsp;
-  <a href="#claude--openai--other-agents"><img src="assets/icons/gemini.svg" width="48" height="48" alt="Gemini"/></a>&nbsp;&nbsp;
-  <a href="#claude--openai--other-agents"><img src="assets/icons/vscode.svg" width="48" height="48" alt="VS Code"/></a>&nbsp;&nbsp;
-  <a href="#claude--openai--other-agents"><img src="assets/icons/antigravity.svg" width="48" height="48" alt="Antigravity"/></a>
-</p>
+<table align="center">
+  <tr>
+    <td align="center" width="96"><a href="#cursor"><img src="assets/icons/cursor.svg" width="48" height="48" alt="Cursor"/><br/><sub><b>Cursor</b></sub></a></td>
+    <td align="center" width="96"><a href="#windsurf"><img src="assets/icons/windsurf.svg" width="48" height="48" alt="Windsurf"/><br/><sub><b>Windsurf</b></sub></a></td>
+    <td align="center" width="96"><a href="#claude--openai--other-agents"><img src="assets/icons/claude-code.svg" width="48" height="48" alt="Claude Code"/><br/><sub><b>Claude</b></sub></a></td>
+    <td align="center" width="96"><a href="#claude--openai--other-agents"><img src="assets/icons/codex.svg" width="48" height="48" alt="Codex"/><br/><sub><b>Codex</b></sub></a></td>
+    <td align="center" width="96"><a href="#claude--openai--other-agents"><img src="assets/icons/copilot.svg" width="48" height="48" alt="GitHub Copilot"/><br/><sub><b>Copilot</b></sub></a></td>
+    <td align="center" width="96"><a href="#claude--openai--other-agents"><img src="assets/icons/gemini.svg" width="48" height="48" alt="Gemini"/><br/><sub><b>Gemini</b></sub></a></td>
+    <td align="center" width="96"><a href="#claude--openai--other-agents"><img src="assets/icons/vscode.svg" width="48" height="48" alt="VS Code"/><br/><sub><b>VS Code</b></sub></a></td>
+    <td align="center" width="96"><a href="#claude--openai--other-agents"><img src="assets/icons/antigravity.svg" width="48" height="48" alt="Antigravity"/><br/><sub><b>Antigravity</b></sub></a></td>
+  </tr>
+</table>
 
 <p align="center">
   A curated set of <strong>15 AI agent skills</strong> for one-shot project initialization and documentation.<br/>
