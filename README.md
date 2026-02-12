@@ -77,6 +77,17 @@ Click the **"Add to my skills"** button for each of the 15 skills, then use the 
 
 After cloning, just use the trigger prompts — each skill has a `SKILL.md` file with full instructions.
 
+> **Note:** Skills are at the root of this repo (not inside a `skills/` subfolder). When you clone, the directory structure will be:
+> ```
+> .cursor/skills/          ← or .claude/skills/, .gemini/skills/, etc.
+> ├── master-orchestrator/
+> ├── dev-orchestrator/
+> ├── docs-orchestrator/
+> ├── frontend-design/
+> ├── ... (12 more skills)
+> └── README.md
+> ```
+
 ---
 
 ## Project Lifecycle Guide

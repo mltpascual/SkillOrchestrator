@@ -17,6 +17,15 @@ The master orchestrator that intelligently sets up your entire project. It autom
 
 > All skill paths in this document are relative to the skills directory. In Manus, the full path is `/home/ubuntu/skills/<skill-name>/SKILL.md`. In other environments, resolve relative to wherever the skills are installed.
 
+## Prerequisites
+
+This skill requires the following sub-orchestrators and their associated skills to be installed in the same skills directory:
+
+- `dev-orchestrator/SKILL.md` — and its 8 development skills
+- `docs-orchestrator/SKILL.md` — and its 4 documentation skills
+
+If any sub-orchestrator is missing, notify the user and provide instructions to install the full skill pack from [https://github.com/mltpascual/SkillOrchestrator](https://github.com/mltpascual/SkillOrchestrator).
+
 ## Smart Detection Workflow
 
 When the user triggers this skill, follow this decision process:
