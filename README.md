@@ -46,42 +46,33 @@ That's it. One prompt, and the orchestrator handles the rest.
 
 ## Installation
 
+Clone this repo into your project using the path that matches your tool:
+
+```bash
+# Universal (works with most tools)
+git clone https://github.com/mltpascual/SkillOrchestrator.git .agent/skills
+
+# Claude Code specific
+git clone https://github.com/mltpascual/SkillOrchestrator.git .claude/skills
+
+# Gemini CLI specific
+git clone https://github.com/mltpascual/SkillOrchestrator.git .gemini/skills
+
+# Codex CLI specific
+git clone https://github.com/mltpascual/SkillOrchestrator.git .codex/skills
+
+# Cursor specific
+git clone https://github.com/mltpascual/SkillOrchestrator.git .cursor/skills
+
+# OpenCode specific (Universal path)
+git clone https://github.com/mltpascual/SkillOrchestrator.git .agent/skills
+```
+
 ### Manus
 
-1. Click the **"Add to my skills"** button for each of the 15 skills.
-2. In any project, just use the trigger prompts.
+Click the **"Add to my skills"** button for each of the 15 skills, then use the trigger prompts in any project.
 
-### Cursor
-
-1. Clone this repo into your project:
-    ```bash
-    git clone https://github.com/mltpascual/SkillOrchestrator.git ./.cursor/skills
-    ```
-2. Use `@` to reference the skills in chat (e.g., `@master-orchestrator Initialize the project`).
-
-### Windsurf
-
-1. Clone this repo into your project root:
-    ```bash
-    git clone https://github.com/mltpascual/SkillOrchestrator.git ./skills
-    ```
-2. Reference the skills in your Windsurf prompts.
-
-### Claude Code / Codex CLI / Gemini CLI
-
-1. Clone this repo into your project root:
-    ```bash
-    git clone https://github.com/mltpascual/SkillOrchestrator.git ./skills
-    ```
-2. Provide the `skills/` directory as context to your agent and ask it to follow the instructions in the `SKILL.md` files.
-
-### Other Agents
-
-1. Clone this repo into your project root:
-    ```bash
-    git clone https://github.com/mltpascual/SkillOrchestrator.git ./skills
-    ```
-2. Point your AI agent to the `skills/` directory. Each skill has a `SKILL.md` file with full instructions.
+After cloning, just use the trigger prompts — each skill has a `SKILL.md` file with full instructions.
 
 ---
 
