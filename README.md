@@ -1,31 +1,32 @@
 # AI Agent Skill Pack: Full Project Initialization
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Skills-15-informational?style=for-the-badge" alt="15 Skills"/>
-  <img src="https://img.shields.io/badge/Orchestrators-3-success?style=for-the-badge" alt="3 Orchestrators"/>
-</p>
+> **15 AI agent skills with 3 orchestrators for one-shot project initialization and documentation — compatible with any AI coding assistant.**
 
-<p align="center">
-  <strong>COMPATIBLE AGENTS</strong>
-</p>
+[![Claude Code](https://img.shields.io/badge/Claude%20Code-Anthropic-purple)](https://claude.ai)
+[![Gemini CLI](https://img.shields.io/badge/Gemini%20CLI-Google-blue)](https://github.com/google-gemini/gemini-cli)
+[![Codex CLI](https://img.shields.io/badge/Codex%20CLI-OpenAI-green)](https://github.com/openai/codex)
+[![Cursor](https://img.shields.io/badge/Cursor-AI%20IDE-orange)](https://cursor.sh)
+[![GitHub Copilot](https://img.shields.io/badge/GitHub%20Copilot-VSCode-lightblue)](https://github.com/features/copilot)
+[![OpenCode](https://img.shields.io/badge/OpenCode-CLI-gray)](https://github.com/opencode-ai/opencode)
+[![Antigravity](https://img.shields.io/badge/Antigravity-DeepMind-red)](https://github.com/sickn33/antigravity-awesome-skills)
+[![AdaL CLI](https://img.shields.io/badge/AdaL%20CLI-SylphAI-pink)](https://sylph.ai/)
+[![Windsurf](https://img.shields.io/badge/Windsurf-IDE-teal)](https://windsurf.com)
+[![Manus](https://img.shields.io/badge/Manus-AI%20Agent-blueviolet)](https://manus.im)
 
-<table align="center">
-  <tr>
-    <td align="center" width="96"><a href="#cursor"><img src="assets/icons/cursor.svg" width="48" height="48" alt="Cursor"/><br/><sub><b>Cursor</b></sub></a></td>
-    <td align="center" width="96"><a href="#windsurf"><img src="assets/icons/windsurf.svg" width="48" height="48" alt="Windsurf"/><br/><sub><b>Windsurf</b></sub></a></td>
-    <td align="center" width="96"><a href="#claude--openai--other-agents"><img src="assets/icons/claude-code.svg" width="48" height="48" alt="Claude Code"/><br/><sub><b>Claude</b></sub></a></td>
-    <td align="center" width="96"><a href="#claude--openai--other-agents"><img src="assets/icons/codex.svg" width="48" height="48" alt="Codex"/><br/><sub><b>Codex</b></sub></a></td>
-    <td align="center" width="96"><a href="#claude--openai--other-agents"><img src="assets/icons/copilot.svg" width="48" height="48" alt="GitHub Copilot"/><br/><sub><b>Copilot</b></sub></a></td>
-    <td align="center" width="96"><a href="#claude--openai--other-agents"><img src="assets/icons/gemini.svg" width="48" height="48" alt="Gemini"/><br/><sub><b>Gemini</b></sub></a></td>
-    <td align="center" width="96"><a href="#claude--openai--other-agents"><img src="assets/icons/vscode.svg" width="48" height="48" alt="VS Code"/><br/><sub><b>VS Code</b></sub></a></td>
-    <td align="center" width="96"><a href="#claude--openai--other-agents"><img src="assets/icons/antigravity.svg" width="48" height="48" alt="Antigravity"/><br/><sub><b>Antigravity</b></sub></a></td>
-  </tr>
-</table>
+## Table of Contents
 
-<p align="center">
-  A curated set of <strong>15 AI agent skills</strong> for one-shot project initialization and documentation.<br/>
-  Compatible with <strong>any AI agent or coding assistant</strong> — just clone and go.
-</p>
+- [How to Use](#how-to-use)
+- [Installation](#installation)
+- [Project Lifecycle Guide](#project-lifecycle-guide)
+  - [New Project (Greenfield)](#new-project-greenfield)
+  - [Existing Project (Brownfield / Forked Repo)](#existing-project-brownfield--forked-repo)
+  - [When to Use Each Orchestrator](#when-to-use-each-orchestrator)
+  - [The Golden Rule](#the-golden-rule)
+- [The 15 Skills](#the-15-skills)
+  - [Orchestrators (3)](#orchestrators-3)
+  - [Development Skills (8)](#development-skills-8)
+  - [Documentation Skills (4)](#documentation-skills-4)
+- [Credits](#credits)
 
 ---
 
@@ -66,13 +67,21 @@ That's it. One prompt, and the orchestrator handles the rest.
     ```
 2. Reference the skills in your Windsurf prompts.
 
-### Claude / OpenAI / Other Agents
+### Claude Code / Codex CLI / Gemini CLI
 
 1. Clone this repo into your project root:
     ```bash
     git clone https://github.com/mltpascual/SkillOrchestrator.git ./skills
     ```
 2. Provide the `skills/` directory as context to your agent and ask it to follow the instructions in the `SKILL.md` files.
+
+### Other Agents
+
+1. Clone this repo into your project root:
+    ```bash
+    git clone https://github.com/mltpascual/SkillOrchestrator.git ./skills
+    ```
+2. Point your AI agent to the `skills/` directory. Each skill has a `SKILL.md` file with full instructions.
 
 ---
 
@@ -164,4 +173,4 @@ Day 1: Cloned or forked the repo
 
 ## Credits
 
-Skills in this pack are sourced from the [**Open Agent Skills Ecosystem**](https://skills.sh/) and community repositories. Agent icons courtesy of [skills.sh](https://skills.sh/). Browse more skills at [skills.sh](https://skills.sh/).
+Skills in this pack are sourced from the [**Open Agent Skills Ecosystem**](https://skills.sh/) and community repositories. Compatible agent badges inspired by [antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills). Browse more skills at [skills.sh](https://skills.sh/).
